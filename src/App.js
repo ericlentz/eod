@@ -1,19 +1,18 @@
-import './App.css';
+import './App.css'
+import EodItem from "./components/EodItem";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>End of Day</h1>
-      </header>
-      <ul>
-        <li>--- Confidential -------</li>
-        <li>--- Confidential -------</li>
-        <li>--- Confidential -------</li>
-        <li>--- Confidential -------</li>
-      </ul>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <header className="App-header">
+      <h1>End of Day</h1>
+    </header>
+    <ul>
+      <EodItem item={"---- Confidential ----"}/>
+      <EodItem item={"---- Confidential ----"}/>
+      <EodItem item={"---- Confidential ----"}/>
+      <EodItem item={"---- Confidential ----"}/>
+    </ul>
+  </div>
+);
 
-export default App;
+export default App

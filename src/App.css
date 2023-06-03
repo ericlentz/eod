@@ -1,6 +1,7 @@
 .App {
   margin-left: 1rem;
   text-align: left;
+  max-width: 40rem;
 }
 
 .App-header {
